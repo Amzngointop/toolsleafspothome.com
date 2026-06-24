@@ -53,7 +53,7 @@ const amazonLinks = [
 
 
 
-export function proxy(request: NextRequest) {
+export function middleware(request: NextRequest) {
   const url = request.nextUrl.clone()
   const cookieName = 'toolsleafspot'
 
